@@ -24,6 +24,7 @@ public class TipCalculator {
             num = scan.nextDouble();
             billBeforetip = billBeforetip + num;
         }
+        billBeforetip = billBeforetip + 1;
         String formattedbillBeforetip = formatter.format(billBeforetip);
 
         //Printout at the End
